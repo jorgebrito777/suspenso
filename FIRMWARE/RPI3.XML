@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<PROJECT IID="1" BUILDPATH="C:/Users/Danny/AppData/Local/Temp/VSM Studio/ad3e67cd6cca403aa9c296c72e20d471/RPI3" VERSION="821" TYPE="SOURCE" NAME="RPI3" CONFIGURATION="Debug">
+ <FILES ATTACH="1">
+  <FILE ATTACH="1" GROUP="Source Files" NAME="RPI3/proyecto.py"/>
+  <FILE ATTACH="1" GROUP="Firmware Files" NAME="RPI3/Debug/Debug.pyz" FIRMWARE="1"/>
+ </FILES>
+ <CONFIGURATION CRC="73ca70a4f4652c9473bce165d833b6f2" TARGET="Debug" COMPILER="Python 3 (Proteus)" NAME="Debug">
+  <CONTROLLER FAMILY="Raspberry Pi" TYPE="RPI3"/>
+  <FILE TOOL="MKPYTHON" NAME="RPI3/Debug/Debug.pyz">
+   <FILE NAME="RPI3/proyecto.py"/>
+  </FILE>
+ </CONFIGURATION>
+ <CONFIGURATION CRC="73ca70a4f4652c9473bce165d833b6f2" TARGET="Release" COMPILER="Python 3 (Proteus)" NAME="Release">
+  <CONTROLLER FAMILY="Raspberry Pi" TYPE="RPI3"/>
+  <FILE TOOL="MKPYTHON">
+   <FILE NAME="RPI3/proyecto.py"/>
+  </FILE>
+ </CONFIGURATION>
+</PROJECT>

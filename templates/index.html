@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.js" type="text/javascript"></script>
+<script src="/static/js/index.js"></script>
+<title>Sistema de riego </title>
+</head>
+<body background="/static/images/fondo.jpg">
+<marquee width="85%" behavior="alternate"></center><img src="/static/images/texto.gif "></center></marquee>
+
+<center><td><img src="/static/images/riego.png " width="180" height="180" ></td>
+<td><img src="/static/images/tanqueagua.gif " width="180" height="180" ></td></center>
+<h5 style="color:#FE0101  ;">RIEGO PROGRAMADO:</h5><h5 style="color:#00000;" id="rp">--</h5>
+<h5 style="color:#FE0101  ;">ESTADO DE RIEGO:</h5><h5 id="estado">--</h5>
+<h5 style="color:#FE0101  ;">NIVEL DE AGUA :</h5><h5 id="nivel">--</h5>
+<button id = 'ACTIVAR'type="button" onclick="ACTIVAR();">
+ACTIVAR</button>
+<button id = 'DESACTIVAR' type="button" onclick="DESACTIVAR();">
+DESACTIVAR</button>
+<h5><p style="color:#000000 ;"><b>CONFIGURACIÓN HORA</b></p></h5>
+<input type="time" id="hora" name="hora">
+<button id = 'ENVIAR'type="button" onclick="ENVIAR();">
+ENVIAR</button>
+
+
+<script>
+/*
+function LED1_On() {
+	alert("led on");
+	console.log("led on");
+  
+}
+function LED1_Off(){
+	alert("led off");
+	console.log("led off");
+}
+*/
+</script>
+</body>
+</html>
+© 2020 GitHub, Inc.
